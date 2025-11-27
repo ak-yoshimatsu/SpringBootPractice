@@ -1,0 +1,48 @@
+2025-11-10T20:48:45.195+09:00  INFO 18040 --- [practice] [restartedMain] c.example.practice.PracticeApplication   : Starting PracticeApplication using Java 21.0.5 with PID 18040 (C:\Respawn\Java\practice\bin\main started by akihiro in C:\Respawn\Java\practice)
+2025-11-10T20:48:45.198+09:00  INFO 18040 --- [practice] [restartedMain] c.example.practice.PracticeApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T20:48:45.294+09:00  INFO 18040 --- [practice] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-10T20:48:45.295+09:00  INFO 18040 --- [practice] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10T20:48:47.076+09:00  INFO 18040 --- [practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T20:48:47.133+09:00  INFO 18040 --- [practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T20:48:47.134+09:00  INFO 18040 --- [practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10T20:48:47.298+09:00  INFO 18040 --- [practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T20:48:47.299+09:00  INFO 18040 --- [practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2002 ms
+2025-11-10T20:48:47.545+09:00  INFO 18040 --- [practice] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-11-10T20:48:48.032+09:00  INFO 18040 --- [practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-10T20:48:48.138+09:00  INFO 18040 --- [practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T20:48:48.157+09:00  INFO 18040 --- [practice] [restartedMain] c.example.practice.PracticeApplication   : Started PracticeApplication in 3.821 seconds (process running for 5.238)
+2025-11-10T20:48:52.685+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T20:48:52.687+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T20:48:52.689+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-10T20:48:52.808+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-1] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:01.880+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-2] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:02.844+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-3] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:03.205+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-4] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:03.391+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-5] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:03.606+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-7] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:03.821+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-8] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T20:49:04.046+09:00  INFO 18040 --- [practice] [http-nio-8080-exec-9] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T22:32:40.466+09:00  INFO 18040 --- [practice] [RMI TCP Connection(57)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-10T22:32:40.473+09:00  INFO 18040 --- [practice] [RMI TCP Connection(57)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T22:32:40.498+09:00  INFO 18040 --- [practice] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T22:32:43.938+09:00  INFO 35960 --- [practice] [restartedMain] c.example.practice.PracticeApplication   : Starting PracticeApplication using Java 21.0.5 with PID 35960 (C:\Respawn\Java\practice\bin\main started by akihiro in C:\Respawn\Java\practice)
+2025-11-10T22:32:43.944+09:00  INFO 35960 --- [practice] [restartedMain] c.example.practice.PracticeApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T22:32:44.024+09:00  INFO 35960 --- [practice] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-10T22:32:44.025+09:00  INFO 35960 --- [practice] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-10T22:32:46.351+09:00  INFO 35960 --- [practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T22:32:46.399+09:00  INFO 35960 --- [practice] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T22:32:46.400+09:00  INFO 35960 --- [practice] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-10T22:32:46.499+09:00  INFO 35960 --- [practice] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T22:32:46.500+09:00  INFO 35960 --- [practice] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2474 ms
+2025-11-10T22:32:46.897+09:00  INFO 35960 --- [practice] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-11-10T22:32:47.583+09:00  INFO 35960 --- [practice] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-10T22:32:47.757+09:00  INFO 35960 --- [practice] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T22:32:47.780+09:00  INFO 35960 --- [practice] [restartedMain] c.example.practice.PracticeApplication   : Started PracticeApplication in 4.661 seconds (process running for 6.407)
+2025-11-10T22:32:51.187+09:00  INFO 35960 --- [practice] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T22:32:51.188+09:00  INFO 35960 --- [practice] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T22:32:51.192+09:00  INFO 35960 --- [practice] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-10T22:32:51.325+09:00  INFO 35960 --- [practice] [http-nio-8080-exec-2] c.e.practice.controller.IndexController  : == 情報ログ ==
+2025-11-10T22:32:51.338+09:00  INFO 35960 --- [practice] [http-nio-8080-exec-2] com.example.practice.aop.LoggingAspect   : >>> AOP: [処理開始] メソッド: UserService.getUserName(..), 引数: [1]
+2025-11-10T22:33:06.241+09:00  INFO 35960 --- [practice] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-10T22:33:06.245+09:00  INFO 35960 --- [practice] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T22:33:06.272+09:00  INFO 35960 --- [practice] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

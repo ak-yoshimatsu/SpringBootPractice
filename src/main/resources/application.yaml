@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: practice
+
+#logging:
+#  file:
+#    name: myapp.log
